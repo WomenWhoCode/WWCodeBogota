@@ -1,0 +1,23 @@
+#ejecutar1
+#RECUERDE REEMPLAZAR POR SU NOMBRE SIN ESPACIOS
+
+cd /home/adminws/agents
+mkdir pongasunombreyapellidosinespacios
+cd pongasunombreyapellidosinespacios
+sudo apt-get install -y libunwind8 libcurl3
+
+
+#command-line1
+
+rm -rf /opt/bitnami/nginx/html/$(foldername)
+mkdir /opt/bitnami/nginx/html/$(foldername)
+
+#folder destino
+
+/opt/bitnami/nginx/html/$(foldername)/
+
+#command-line2
+
+cd /opt/bitnami/nginx/html/$(foldername)
+unzip -o *.zip
+rm *.zip
