@@ -1,0 +1,10 @@
+variable "aws_profile"   { default = "default" }
+variable "aws_region"    { default = "us-east-1" }
+variable "ami_id"        { default = "ami-04505e74c0741db8d" }
+variable "instance_type" { default = "t2.micro" }
+variable "key_pair"      { default = "Add key par name" }
+variable "vpc_ID"        { default = "add VPC ID" }
+variable "sg_name"       { default = "WorkshopSG" }
+variable "sg_desc"       { default = "Grupo de seguridad para workshop" }
+variable "all_blocks"    { default = ["0.0.0.0/0"] }
+variable "single_ips"    { default = ["self IP/32", "secondary IP/32" ] }
